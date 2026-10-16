@@ -1,1 +1,53 @@
- 
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .hero-btn-menu {
+    display: none;
+  }
+  .header-logo {
+    color: #1b414b;
+    font-size: 20px;
+  }
+  .header-menu-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+
+  .header-menu-link {
+    transition: background-color 300ms ease-in-out;
+    background-color: rgba(27, 65, 75, 0.5);
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    background-color: #1b414b;
+  }
+
+  .header-menu-link {
+    font-size: 12px;
+    padding: 8px 8px;
+  }
+  .header-social-list {
+    display: flex;
+    gap: 8px;
+  }
+  .heder-social-icon {
+    color: #1b414b;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px 20px;
+  }
+}
