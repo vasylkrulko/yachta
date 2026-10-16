@@ -1,3 +1,1 @@
-import { initTestButton } from './test-button.js';
-
-initTestButton();
+import './mobile-menu.js';
