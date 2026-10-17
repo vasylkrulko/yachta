@@ -1,5 +1,5 @@
 const menuOverlay = document.querySelector('.mobile-menu-overlay');
-const openMenuBtn = document.querySelector('.hero-btn-menu');
+const openMenuBtn = document.querySelector('.header-btn-menu');
 const closeMenuBtn = document.querySelector('.mobile-btn-close');
 const menuLinks = document.querySelectorAll('.mobile-menu-link');
 
