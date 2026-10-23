@@ -1,8 +1,52 @@
-<!-- =======================ABOUT============================
-Зверніть увагу!                                             ||
-Скелет (html, head, body) в цей файл додавати не потрібно!  ||
-Додаємо тільки розмітку своєї частинки                      ||
-                                                            ||
-Коректний відносний шлях до зображень має такий вигляд      ||
-<img src="/img/about/about-desk.jpg" alt="">                ||
-========================================================== -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="content-background">
+      <div class="about-content">
+        <h2 class="about-title">
+          YachtJet fleet is here to take you on the ultimate adventure
+        </h2>
+        <div class="about-content-wrapper">
+          <h3 class="about-subtitle">
+            From spacious decks to state-of-the-art technology, our yachts are
+            designed to provide the perfect blend of luxury and functionality.
+          </h3>
+          <p class="about-description">
+            Take a look at our selection below and choose the yacht that matches
+            your needs and preferences.No matter which yacht you choose, our
+            experienced crew will ensure that your journey is smooth and
+            enjoyable. Book now and get ready for an unforgettable adventure on
+            the high seas.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about-image">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./assets/img/about/about-desktop-1180x470.webp    1x,
+            ./assets/img/about/about-desktop-2360x940@2x.webp 2x
+          "
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./assets/img/about/about-tablet-704x470.webp     1x,
+            ./assets/img/about/about-tablet-1408x940@2x.webp 2x
+          "
+        />
+
+        <img
+          src="./assets/img/about/about-mob-335x395.webp"
+          srcset="
+            ./assets/img/about/about-mob-335x395.webp    1x,
+            ./assets/img/about/about-mob-670x790@2x.webp 2x
+          "
+          alt=""
+        />
+      </picture>
+    </div>
+  </div>
+</section>
