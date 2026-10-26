@@ -1,0 +1,81 @@
+<section class="section" id="rent">
+  <div class="container rent-wrapper">
+    <div class="rent-content">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-item">
+          <label class="visually-hidden" for="rent-username">Full Name</label>
+          <input
+            class="rent-form-input"
+            type="text"
+            id="rent-username"
+            name="rent-username"
+            placeholder="Full Name"
+            required
+          />
+        </div>
+
+        <div class="rent-form-item">
+          <label class="visually-hidden" for="rent-email">E-mail</label>
+          <input
+            class="rent-form-input"
+            type="email"
+            name="rent-email"
+            id="rent-email"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div class="rent-form-item">
+          <label class="visually-hidden" for="rent-phone">Phone number</label>
+          <input
+            class="rent-form-input"
+            type="tel"
+            name="rent-phone"
+            id="rent-phone"
+            placeholder="Phone number"
+            required
+          />
+        </div>
+        <label class="visually-hidden" for="rent-texarea">Comment</label>
+        <textarea
+          class="rent-texarea-input"
+          name="rent-texarea"
+          id="rent-texarea"
+          placeholder="Comment"
+          rows="3"
+        ></textarea>
+        <button class="btn rent-form-btn" type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="rent-img">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./assets/img/rent/rent-desktop.webp    1x,
+            ./assets/img/rent/rent-desktop@2x.webp 2x
+          "
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./assets/img/rent/rent-tablet.webp    1x,
+            ./assets/img/rent/rent-tablet@2x.webp 2x
+          "
+        />
+
+        <img
+          src="./assets/img/rent/activities.webp"
+          srcset="
+            ./assets/img/rent/rent-mob.webp    1x,
+            ./assets/img/rent/rent-mob@2x.webp 2x
+          "
+          alt="activites"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
