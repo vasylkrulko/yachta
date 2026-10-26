@@ -44,4 +44,11 @@
   margin-top: 38px;
   background-color: #1b414b;
   padding: 14px 32px;
+  transition: background-color 400ms ease-in-out;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #0e1823;
+  background-color: #fbfbfb;
 }
