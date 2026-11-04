@@ -20,6 +20,7 @@
   padding: 15px 25px;
   font-weight: 400;
   line-height: 130%;
+  transition: background-color 400ms ease-in-out;
 }
 
 .social-item {
