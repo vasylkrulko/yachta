@@ -1,1 +1,38 @@
-/* Сюди додавай стилі частинки Header */
+.header-wrapper {
+  z-index: 10;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  box-sizing: border-box;
+  width: calc(100% - 32px); /* 16px відступ з кожного боку */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+.header-logo {
+  color: #1b414b;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.header-btn-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: none;
+}
+.header-social-list {
+  display: none;
+}

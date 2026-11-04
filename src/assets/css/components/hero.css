@@ -1,1 +1,54 @@
-/* Сюди додавай стилі частинки Hero */
+.hero {
+  height: 100vh;
+  background-image: image-set(
+    url('/assets/img/hero/hero-mobile375x812.webp') 1x,
+    url('/assets/img/hero/hero-mobile750x1624@2x.webp') 2x
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero-cover {
+  color: #fbfbfb;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 100% */
+  letter-spacing: -0.64px;
+}
+.hero-subtitle {
+  margin-top: 24px;
+  color: rgba(251, 251, 251, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+.hero-btn {
+  font-size: 14px;
+  margin-top: 38px;
+  background-color: #1b414b;
+  padding: 14px 32px;
+  transition: background-color 400ms ease-in-out;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #0e1823;
+  background-color: #fbfbfb;
+}
